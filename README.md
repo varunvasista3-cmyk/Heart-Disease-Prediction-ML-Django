@@ -1,49 +1,57 @@
-Heart Disease Prediction Using Machine Learning (Django Web App)
+# Heart Disease Prediction Using Machine Learning (Django Web App)
 
-This project predicts the likelihood of heart disease based on user-provided health metrics using trained machine learning models.
+## This project predicts the likelihood of heart disease based on user-provided health metrics using trained machine learning models.
 It includes a user-friendly Django web interface where users can input parameters such as age, cholesterol, blood pressure, glucose level, BMI, smoking history, etc., and instantly get a prediction result.
 
-🚀 Features
+## 🚀 Features
 
 ⦁	🔐 User Login & Registration
-⦁	
+
 ⦁	🤖 Machine Learning–based prediction
-⦁	
+
 ⦁	📊 Data visualization & insights
-⦁	
+
 ⦁	💾 SQLite database support
-⦁	
+
 ⦁	⚙️ Trained classification models
-⦁	
+
 ⦁	🌍 Web-based interface (no coding needed to use)
 
 
 
-🧠 Machine Learning Models Used
+## 🧠 Machine Learning Models Used
 
-Model	                     Status
----------------------------------------------------
-Logistic Regression	             ✔️
-Random Forest Classifier	     ⭐ Best Model
-Support Vector Machine (SVM)	     ✔️
-Decision Tree	                     ✔️
----------------------------------------------------
+Model	                     
 
- | Best Accuracy: 92% using Random Forest Classifier |
+Logistic Regression
+
+Random Forest Classifier
+
+Support Vector Machine (SVM)
+
+Decision Tree	                   
+
+
+ **| Best Accuracy: 92% using Random Forest Classifier | **
 
 
 
-🛠️ Tech Stack
-Layer	                 Technology
----------------------------------------------------------
-Backend	                       Python, Django
-ML Libraries	               Scikit-learn, Pandas, NumPy
-Frontend	               HTML, CSS, Bootstrap
-Database	               SQLite
-Deployment Ready	       Yes
----------------------------------------------------------
+##  **🛠️ Tech Stack**
 
-📁 Folder Structure
+Layer	- Technology
+
+Backend	-  Python, Django 
+
+ML Libraries -  Scikit-learn, Pandas, NumPy
+
+Frontend - HTML, CSS, Bootstrap
+
+Database - SQLite
+
+Deployment Ready - Yes
+
+
+## 📁 Folder Structure
 
 📦 Heart-Disease-Prediction-ML-Django
  ┣ 📂 assets
@@ -54,11 +62,11 @@ Deployment Ready	       Yes
  ┣ 📝 requirements.txt
  ┗ 🖥️ db.sqlite3
 
-🧪 How to Run Locally
+## 🧪 How to Run Locally
 
 git clone https://github.com/varunvasista3-cmyk/Heart-Disease-Prediction-ML-Django.git
 
-cd Heart-Disease-Prediction-ML-Django
+**cd Heart-Disease-Prediction-ML-Django**
 
 python -m venv venv
 venv\Scripts\activate
@@ -68,18 +76,18 @@ pip install -r requirements.txt
 python manage.py runserver
 
 
-Then open browser at:
+## Then open browser at:
 
 👉 http://127.0.0.1:8000/
 
 
-🧮 Prediction Example Output
+## 🧮 Prediction Example Output
 
 ✔ Result: HIGH RISK of Heart Disease
 ❗ Recommended: Consult a medical professional.
 
 
-📷 Screenshots 
+## 📷 Screenshots 
 
 🏠 Home Page
 
@@ -89,8 +97,8 @@ Then open browser at:
 
 
 
-👤 Author
-
+## 👤 Author
+ 
 Varun Vasista
 🎓 MCA Student | Python | Machine Learning | Django
 📍 Hyderabad, India
